@@ -1,1 +1,1 @@
-# IDC-Challenge-Hackathib
+# IDC-Challenge-Hackathon
