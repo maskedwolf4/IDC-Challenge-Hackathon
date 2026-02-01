@@ -41,7 +41,7 @@ FROM gold_loan_analytics;
 
 Credit score is the **strongest predictor** of loan approval. Applications with "Excellent" credit have an approval rate of **89.23%**, while "Very Poor" credit drops to just **13.82%**.
 
-![Applications by Credit Tier](Applications%20by%20Credit%20Tier.png)
+![Applications by Credit Tier](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Applications%20by%20Credit%20Tier.png)
 
 | Credit Tier | Applications | Approved | Approval Rate |
 |-------------|-------------|----------|---------------|
@@ -84,7 +84,7 @@ ORDER BY
 
 Higher income correlates strongly with higher approval rates. The "Very High" income bracket achieves **82.91%** approval, while "Low" income sees only **45.66%**.
 
-![Applications by Income Bracket](Applications%20by%20Income%20Bracket.png)
+![[Applications by Income Bracket](Applications%20by%20Income%20Bracket.png)](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Applications%20by%20Income%20Bracket.png)
 
 | Income Bracket | Applications | Avg DTI Ratio | Approval Rate |
 |----------------|-------------|---------------|---------------|
@@ -127,7 +127,7 @@ ORDER BY
 
 **Education loans** have the highest approval rate at **67.51%**, while **Debt Consolidation** has the lowest at **36.65%**.
 
-![Loan Applications Distribution by Purpose](Loan%20Applications%20Distribution%20by%20Purpose.png)
+![[Loan Applications Distribution by Purpose](Loan%20Applications%20Distribution%20by%20Purpose.png)](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Loan%20Applications%20Distribution%20by%20Purpose.png)
 
 | Loan Purpose | Applications | Approved | Avg Loan Amount | Avg Risk Score | Approval Rate |
 |--------------|-------------|----------|-----------------|----------------|---------------|
@@ -166,7 +166,7 @@ ORDER BY total_apps DESC;
 
 Surprisingly, employment status shows minimal impact on approval rates, with all categories hovering around **54-57%**.
 
-![Loan Applications by Employment Type](Loan%20Applications%20by%20Employment%20Type.png)
+![[Loan Applications by Employment Type](Loan%20Applications%20by%20Employment%20Type.png)](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Loan%20Applications%20by%20Employment%20Type.png)
 
 | Employment Status | Applications | Avg Credit Score | Approval Rate |
 |-------------------|-------------|------------------|---------------|
@@ -200,7 +200,7 @@ ORDER BY applications DESC;
 
 This cross-analysis reveals critical patterns:
 
-![Applications by Loan Purpose and Credit Tier](Applications%20by%20Loan%20Purpose%20and%20Credit%20Tier.png)
+![[Applications by Loan Purpose and Credit Tier](Applications%20by%20Loan%20Purpose%20and%20Credit%20Tier.png)](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Applications%20by%20Loan%20Purpose%20and%20Credit%20Tier.png)
 
 <details>
 <summary>📝 SQL Query</summary>
@@ -271,12 +271,12 @@ HIGH APPROVAL (>70%)          MEDIUM RISK (40-70%)         HIGH REJECTION (<40%)
 
 | File | Description |
 |------|-------------|
-| [SummaryKPI.csv](SummaryKPI.csv) | Overall KPI metrics |
-| [Credit_Tier_Approval_Rates_Analysis.csv](Credit_Tier_Approval_Rates_Analysis.csv) | Credit tier breakdown |
-| [Income_Bracket_Analysis_with_Approval_Rates_and_DTI.csv](Income_Bracket_Analysis_with_Approval_Rates_and_DTI.csv) | Income analysis |
-| [Loan_Purpose_Analysis.csv](Loan_Purpose_Analysis.csv) | Loan intent breakdown |
-| [Employment_Type_and_Loan_Approval_Analysis_2026_02_01_9____.csv](Employment_Type_and_Loan_Approval_Analysis_2026_02_01_9____.csv) | Employment type analysis |
-| [Heatmap_Analysis_of_Loan_Applications_and_Approval_Rate____.csv](Heatmap_Analysis_of_Loan_Applications_and_Approval_Rate____.csv) | Cross-tabulation data |
+| [SummaryKPI.csv](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/SummaryKPI.csv) | Overall KPI metrics |
+| [Credit_Tier_Approval_Rates_Analysis.csv](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Credit_Tier_Approval_Rates_Analysis.csv) | Credit tier breakdown |
+| [Income_Bracket_Analysis_with_Approval_Rates_and_DTI.csv](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Income_Bracket_Analysis_with_Approval_Rates_and_DTI.csv) | Income analysis |
+| [Loan_Purpose_Analysis.csv](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Loan_Purpose_Analysis.csv) | Loan intent breakdown |
+| [Employment_Type_and_Loan_Approval_Analysis.csv](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Employment_Type_and_Loan_Approval_Analysis_2026_02_01_9____.csv) | Employment type analysis |
+| [Heatmap_Analysis_of_Loan_Applications_and_Approval_Rate.csv](https://github.com/maskedwolf4/IDC-Challenge-Hackathon/blob/main/assets/Heatmap_Analysis_of_Loan_Applications_and_Approval_Rate____.csv) | Cross-tabulation data |
 
 ---
 
