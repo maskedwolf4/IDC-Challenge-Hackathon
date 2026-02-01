@@ -6,7 +6,7 @@
 ![PySpark](https://img.shields.io/badge/PySpark-4.0-orange.svg)
 ![Databricks](https://img.shields.io/badge/Databricks-Unity%20Catalog-red.svg)
 ![MLflow](https://img.shields.io/badge/MLflow-Tracking-green.svg)
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
