@@ -1,0 +1,6 @@
+income_bracket,applications,avg_dti_ratio,approval_rate_pct
+Low,15056,0.2879,45.66
+Lower_Middle,21260,0.2838,54.88
+Upper_Middle,9860,0.2906,62.73
+High,3625,0.2952,72.55
+Very_High,199,0.2691,82.91

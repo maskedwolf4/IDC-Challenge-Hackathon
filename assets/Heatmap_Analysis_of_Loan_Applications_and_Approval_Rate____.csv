@@ -1,0 +1,31 @@
+credit_tier,loan_intent,applications,approval_rate_pct
+Excellent,Business,404,87.62
+Excellent,Debt Consolidation,246,88.62
+Excellent,Education,490,88.78
+Excellent,Home Improvement,390,88.72
+Excellent,Medical,403,89.83
+Excellent,Personal,658,90.73
+Fair,Business,1974,65.1
+Fair,Debt Consolidation,1354,53.25
+Fair,Education,2739,85.76
+Fair,Home Improvement,2031,75.33
+Fair,Medical,2002,73.98
+Fair,Personal,3317,81.49
+Good,Business,1061,80.21
+Good,Debt Consolidation,711,73.14
+Good,Education,1434,89.68
+Good,Home Improvement,1087,84.64
+Good,Medical,1102,85.3
+Good,Personal,1709,87.95
+Poor,Business,2205,34.15
+Poor,Debt Consolidation,1369,23.45
+Poor,Education,2899,70.71
+Poor,Home Improvement,2145,47.51
+Poor,Medical,2164,48.48
+Poor,Personal,3613,60.97
+Very_Poor,Business,1825,3.78
+Very_Poor,Debt Consolidation,1237,1.78
+Very_Poor,Education,2572,28.03
+Very_Poor,Home Improvement,1800,9.67
+Very_Poor,Medical,1927,9.7
+Very_Poor,Personal,3132,17.69
